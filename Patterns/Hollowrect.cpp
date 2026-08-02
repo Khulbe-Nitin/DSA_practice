@@ -10,7 +10,6 @@ int main(){
             for(int j=0; j<m; j++){
                 cout << "*";
             }
-            cout << endl;
         }
         else{
             for(int j=0; j<m;j++){
@@ -21,7 +20,6 @@ int main(){
                     cout << " ";
                 }
             }
-            cout << endl;
         }
-    }
+        cout << endl;    }
 }
