@@ -1,12 +1,22 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main(){
-    string s; cin >> s;
-    int sum =0, size = s.size();
-    for(int i=0; i<size; i++){
-        sum += s[i]-'0';
+    int n; cin >> n;
+    int len = 2*n -1;
+    for(int j=0; j<len; j++){
+        if(j <n){
+            for(int i=0; i<=j; i++){
+                cout << "*" << " ";
+            }
+            cout << "\n";
+        }
+        else{
+            for(int i= len-j; i>0; i--){
+                cout << "*" << " ";
+            }
+            cout << "\n";
+        }
     }
-    cout << sum;
     return 0;
 }
