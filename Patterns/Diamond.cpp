@@ -28,3 +28,6 @@ int main(){
     }
     return 0;
 }
+'''
+We can use space = |n-i-1| and star = n-space for each row
+'''
