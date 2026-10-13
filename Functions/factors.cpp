@@ -15,6 +15,6 @@ public:
 int main(){
     int n; cin >> n;
     Solution obj;
-    obj.factor(n);
+    obj.factor(n); 
     return 0;
 }
