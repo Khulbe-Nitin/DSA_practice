@@ -3,33 +3,27 @@ using namespace std;
 
 int main(){
     int n; cin >> n;
-    set <long long int> combine; //To store union of both arrays
-    multiset <long long int> sum; // To store all elements of both arrays
+    set <long long int> count;
     for(int i=0; i<n; i++){
-        int x; cin >> x;
-        combine.insert(x);
-        sum.insert(x);
+        long long int x; cin >> x;
+        count.insert(x);
     }
     int m; cin >> m;
+    set<long long int> intersection;
     for(int i=0; i<m; i++){
         int x; cin >> x;
-        combine.insert(x);
-        sum.insert(x);
-    }
-    for(auto N:combine){
-        auto it = sum.find(N);
-        if(it != sum.end() ){
-            sum.erase(it);
+        if(count.find(x)!= count.end()){
+            intersection.insert(x);
         }
     }
-    if(sum.size()!=0){
-        cout << sum.size()<<"\n";
-        for(auto N: sum){
+    if(intersection.size() !=0){
+        cout << intersection.size() << "\n";
+        for(auto N: intersection){
             cout << N << " ";
         }
     }
     else{
-        cout << sum.size();
+        cout << 0;
     }
     return 0;
 }
