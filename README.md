@@ -5,3 +5,6 @@ This DSA sheet is inspired by Codeforces group of 100xdev.com.
 Topics covered:
 Introduction to CPP
 Loops 
+Pattern Printing
+Functions
+Arrays
