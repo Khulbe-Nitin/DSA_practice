@@ -9,3 +9,4 @@ Pattern Printing
 Functions
 Arrays
 2D-Arrays
+Strings
