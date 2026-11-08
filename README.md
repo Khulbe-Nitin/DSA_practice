@@ -10,3 +10,7 @@ Functions
 Arrays
 2D-Arrays
 Strings
+Sorting & Searching 
+Mixed Practice
+Time & Space Complexity
+Prefix Sums & Contribution
