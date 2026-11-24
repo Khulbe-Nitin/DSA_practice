@@ -15,4 +15,4 @@ Mixed Practice \
 Time & Space Complexity \
 Prefix Sums & Contribution \
 Sets & Maps \
-This has been on hold since 21 October 2026
+This has been on hold since 21 October 2026 due to moving in new project.
